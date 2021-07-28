@@ -6,12 +6,9 @@ from database.userchats import add_chat
 from vars import var
 
 START_MSG = """
-Hi, I am **ANONYMOUS SENDER BOT.**\n
+Hi, I am **ANONYMOUS SENDER ROBOT.**\n
 Just Forward me Some messages or
 media and I will **Anonymize** that !!
-
-You Can too Clone me :-
-https://github.com/ProThinkerGang/Anonymous-Bot
 """
 
 if var.START_MESSAGE is not None:
@@ -23,7 +20,7 @@ else:
 REPLY_MARKUP = InlineKeyboardMarkup(
     [
         [InlineKeyboardButton("Caption Setting", callback_data="captz")],
-        [InlineKeyboardButton("Support Group", url="t.me/FutureCodes")],
+        [InlineKeyboardButton("Support Channel", url="t.me/FZBOTS")],
     ]
 )
 
