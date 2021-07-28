@@ -1,7 +1,5 @@
 import logging
-
 from pyrogram import Client, idle
-
 from vars import var
 
 logging.getLogger("pyrogram").setLevel(logging.INFO)
